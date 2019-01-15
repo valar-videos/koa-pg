@@ -1,0 +1,24 @@
+{
+  "name": "koa-pg",
+  "version": "1.0.0",
+  "description": "A project which incorporates Koa and PostgreSQL",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "cross-env NODE_PATH=src node src/index.js",
+    "watch": "cross-env NODE_PATH=src nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Test",
+    "Node",
+    "Koa",
+    "PostgreSQL"
+  ],
+  "author": "Elliott Minns <elliott.minns@me.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "enforce-node-path": "^1.0.0",
+    "nodemon": "^1.18.9"
+  }
+}
