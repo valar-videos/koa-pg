@@ -1,0 +1,7 @@
+{
+  "PGHOST": "localhost",
+  "PGUSER": "fox",
+  "PGPASSWORD": "goodmorning",
+  "PGDATABASE": "koayt",
+  "PGPORT": 5432
+}
