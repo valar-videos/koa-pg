@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "cross-env NODE_PATH=src node src/index.js",
-    "watch": "cross-env NODE_PATH=src nodemon",
+    "dev": "cross-env NODE_PATH=src nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -24,6 +24,7 @@
     "koa-response-time": "^2.1.0",
     "koa-router": "^7.4.0",
     "nodemon": "^1.18.9",
-    "pg": "^7.8.0"
+    "pg": "^7.8.0",
+    "postgres-migrations": "^3.0.2"
   }
 }
