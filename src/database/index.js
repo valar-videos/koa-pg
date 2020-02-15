@@ -19,3 +19,7 @@ exports.close = async function () {
 exports.query = async function (q, data) {
   return this.pool.query(q, data)
 }
+
+exports.queryOne = async function(q, data) {
+  return this.pool.query(q, data).then(r => r.rows[0])
+}
